@@ -11,7 +11,7 @@
   accent: rgb("#007fad")
 )
 #let body-style = (
-  fonts: ("Source Sans 3", "Font Awesome 6 Brands", "Font Awesome 6 Free"),
+  fonts: ("Jokerman","Source Sans 3 Medium"),
   size: 10pt,
   weight: "regular"
 )
@@ -20,7 +20,7 @@
 )
 
 #let header-style = (
-  fonts: ("New Computer Modern Sans"),
+  fonts: ("Roboto","Source Sans 3"),
   table: (
     columns: (5fr, 1fr),
     column-gutter: 30pt

@@ -1,15 +1,14 @@
 #import "@preview/light-cv:0.1.0": *
-#import "@preview/fontawesome:0.1.0": *
 
 #show: cv
 
 #let icons = (
-  phone: image("media/phone_icon.svg", width: 10pt),
-  homepage: image("media/phone_icon.svg", width: 10pt),
-  linkedin: image("media/icons8-linkedin.svg", width: 10pt),
-  github: image("media/icons8-github.svg", width: 10pt),
+  phone: image("media/phone_icon.svg", width: 0pt),
+  homepage: image("media/phone_icon.svg", width: 0pt),
+  linkedin: image("media/icons8-linkedin.svg", width: 0pt),
+  github: image("media/icons8-github.svg", width: 0pt),
   xing: fa-xing(),
-  mail: image("media/icons8-gmail.svg", width: 10pt)
+  mail: image("media/icons8-gmail.svg", width: 0pt)
 )
 
 #header(
@@ -18,145 +17,101 @@
   socials: (
     (
       icon: icons.github,
-      text: [camryntwaddle],
-      link: "https://github.com"
+      text: [GitHub],
+      link: "https://github.com/camryntwaddle"
+    ),
+    (
+      icon: icons.linkedin,
+      text: [LinkedIn],
+      link: "www.linkedin.com/in/camryn-twaddle-958a79262"
+    ),
+    (
+      icon: icons.mail,
+      text: [074 204 1361],
+      link: "tel://0742041361"
     ),
     (
       icon: icons.mail,
       text: [cammietwaddle\@gmail.com],
       link: "mailto://john.doe@email.com"
-    ),
-    (
-      icon: icons.linkedin,
-      text: [Camryn Twaddle],
-      link: "https://linkedin.com/"
     )
   ),
   profile-picture: image("media/avatar.jpeg")
 )
 
-#section("Professional Experience")
-#entry(
-  title: "Data Analyst", 
-  company-or-university: "BetaSoft Technologies", 
-  date: "2023 - Today", 
-  location: "San Francisco, CA", 
-  logo: image("media/stellies.png"),
-  description: list(
-    [Analyzed large datasets using SQL and Python to extract actionable insights, leading to optimized marketing strategies and increased revenue],
-    [Designed and implemented data visualization dashboards using Tableau, improving data accessibility and decision-making processes.],
-    [Collaborated with stakeholders to define key performance metrics and develop automated reporting solutions, streamlining data analysis processes]
-  )
-)
-#entry(
-  title: "Cybersecurity Consultant", 
-  company-or-university: "Gamma Systems Inc.", 
-  date: "2020 - 2022", 
-  location: " London, UK", 
-  logo: image("media/stellies.png"),
-  description: list(
-    [Conducted penetration testing and vulnerability assessments for client networks, identifying and mitigating security risks],
-    [Developed and implemented cybersecurity policies and procedures to ensure compliance with industry standards and regulations],
-    [Provided cybersecurity training and awareness programs for employees, reducing the risk of security incidents due to human error]
-  )
-)
+#section("About") \
+#text([ \ I am a dedicated and driven honours student at Stellenbosch University, pursuing a Bachelor of Informatics. I graduated with a BCom in Management Science with a focal area in Information Systems Management, and have aquired skills in system design, programming, and data analysis. I minored in financial management and have skills in financial interpretation. During university, I have earned awards for top academic performance and development projects, as well as received a membership in the Golden Key Honour Society. I enjoy new opportunities and am eager to further my skills and knowledge through learning and professional development.])
 
+#section("Experience")
+#entry(
+  title: "Teaching Assistant", 
+  company-or-university: "Stellenbosch Univerity", 
+  date: "Feb 2024 - June 2024", 
+  location: "", 
+  logo: image("media/stellies.png"),
+  description: list(
+    [Supported students during practical sessions and guided them in the solution of prescribed practical submissions.],
+    [Conducting formative assessments and marking of summative assessments with training.],
+    [Supporting lecturer with invigilating tests.],
+    [Module administration: managing practical attendence, replying to student queries, and mark management.]
+  )
+)
+#entry(
+  title: "Data Analysis Intern", 
+  company-or-university: "Advance Guidance", 
+  date: "Nov 2022 - Jan 2023", 
+  location: "", 
+  logo: image("media/AG-icon.png"),
+  description: list(
+    [Created graphs for client dashboard using Python.],
+    [Cleaned and formatted data.],
+    [Attended client meetings.],
+    [Worked with AWS, Git and Python packages.]
+  )
+)
 
 #section("Education")
 #entry(
-  title: "Master of Science in Computer Science", 
-  company-or-university: "University of California", 
-  date: "09/2020 - 09/2022", 
-  location: "Los Angeles, USA", 
-  logo: "media/stellies.png",
+  title: "Bachelor of Informatics Honours", 
+  company-or-university: "Stellenbosch University", 
+  date: "2024 [Expected]", 
+  location: "", 
+  logo: image("media/stellies.png"),
   description: list(
-    [Thesis: Exploring Deep Learning Techniques for Natural Language Understanding in Chatbots],
-    [Minor: Mathematics],
-    [GPA: 4.0]
+    [Research Project: Exploratory Social Media Data Analysis]
   )
 )
 #entry(
-  title: "Bachelor of Science in Computer Science", 
-  company-or-university: "University of California", 
-  date: "09/2017 - 09/2020", 
-  location: "Los Angeles, USA", 
-  logo: image("media/stellies.png"), 
-  description: list(
-    [Thesis: Design and Implementation of a Secure File Sharing System Using Blockchain Technology],
-    [Minor: Mathematics],
-    [GPA: 3.5]
-  )
-)
-
-#section("Programming Expertise")
-#entry(
-  title: "Chatbot for Mental Health Support", 
-  company-or-university: "Personal Project", 
-  date: "2023 - 2024", 
+  title: "Bachelor of Commerce in Management Science", 
+  company-or-university: "Stellenbosch University", 
+  date: "2020 - 2023", 
   location: "", 
   logo: image("media/stellies.png"), 
   description: list(
-    [Developed a chatbot using Python and the TensorFlow library for natural language processing],
-    [Implemented sentiment analysis to assess the emotional state of users during conversations],
-    [Integrated with external APIs to provide resources and guidance for mental health support based on user responses]
+    [Focal area in Information Systems Management],
+    [Minor in financial management and business analytics],
+    [Final year average: 74%],
+    [Received awards for top third year information systems student and top -development group project],
+    [2020-2021: Bachelor of Accounting]
   )
-)
-#entry(
-  title: "Smart Home Automation System", 
-  company-or-university: "Personal Project", 
-  date: "2020", 
-  location: "", 
-  logo: image("media/ucla.png"), 
-  description: list(
-    [Designed a smart home automation system using Raspberry Pi and Arduino microcontrollers],
-    [Implemented sensors for monitoring temperature, humidity, and motion detection within the home environment],
-    [Developed a web-based dashboard using HTML, CSS, and JavaScript to control and monitor connected devices remotely]
-  )
-)
-
-#pagebreak()
-#header(
-  full-name: [John Doe],
-  job-title: [Software Engineer with a passion for JavaScript],
-  socials: (
-    (
-      icon: icons.github,
-      text: [JohnDoe],
-      link: "https://github.com"
-    ),
-    (
-      icon: icons.homepage,
-      text: [johndoe.com],
-      link: "johndoe.com"
-    ),
-    (
-      icon: icons.mail,
-      text: [john.doe\@email.com],
-      link: "mailto://john.doe@email.com"
-    ),
-    (
-      icon: icons.linkedin,
-      text: [John Doe],
-      link: "https://linkedin.com/"
-    )
-  ),
-  profile-picture: image("media/avatar.jpeg")
 )
 
 #section("Skills & Interests")
 #skill(
-  category: "Technology",
-  skills: ("Cybersecurity", "Cloud Computing", "Internt of Things", "Svelte")
+  category: "Lanaguages",
+  skills: ("Python", "R", "SQL", "HTML & CSS", "React & React Admin", "Javascript")
 )
 #skill(
-  category: "Languages",
-  skills: ("English (native)", "French (fluent)", "Chinese (Basics)")
+  category: "Programmes",
+  skills: ("Visual Studio Code", "RStudio","PowerBI", "Visual Paradigm", "GitHub", "GitLab","Figma")
 )
 #skill(
-  category: "Sports",
-  skills: ("Gym", "Baseball", "Cricekt")
+  category: "Other skills",
+  skills: ("UML modelling", "Financial analysis", "Financial interpretation")
 )
 #skill(
   category: "Interests",
-  skills: ("Photography", "Travel", "Music")
+  skills: ("Reading", "Organising and planning", "Web design", "Data analytics")
 )
+
+#section("References")
