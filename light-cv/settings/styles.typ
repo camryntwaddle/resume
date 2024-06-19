@@ -58,6 +58,7 @@
   margins: (
     top: 3pt,
     right-to-hline: 2pt,
+    bottom: 5pt,
   )
 )
 
