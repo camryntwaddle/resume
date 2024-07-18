@@ -48,7 +48,7 @@
 #v(3pt)
 #text(font: "Source Sans Pro", weight: "extrabold", fill: black)[ I am a dedicated and driven honours student at Stellenbosch University, pursuing a Bachelor of Informatics Honours degree. I graduated with a BCom in Management Science with a focal area in Information Systems Management, and have acquired skills in system design, programming, and data analysis. I minored in financial management and have skills in financial interpretation. During university, I have earned awards for top academic performance and development projects, as well as received a membership in the Golden Key Honour Society. I enjoy new opportunities and am eager to further my skills and knowledge through learning and professional development.]
 
-#text("")
+#text("") 
 
 #section("Experience")
 #entry(
