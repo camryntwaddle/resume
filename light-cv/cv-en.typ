@@ -52,6 +52,19 @@
 
 #section("Experience")
 #entry(
+  title: text(font: "Source Sans Pro", weight: "extrabold")[Software Developer Intern],
+  company-or-university: "Advance Guidance",
+  date: text(font: "Source Sans Pro", weight: "bold")[Jun 2024 - Jul 2024],
+  location: "",
+  logo: image("media/AG-icon.png"),
+  description: list(
+    text(font: "Source Sans Pro", weight: "extrabold")[Helped create a python package designed to streamline the data science model development process.],
+    text(font: "Source Sans Pro", weight: "extrabold")[The package aims to simplify model development steps such as, data processing, feature extraction, data profiling, model training and using the model.],
+    text(font: "Source Sans Pro", weight: "extrabold")[As an intern, I focused on creating data profiling for the features and generating SHAP graphs based on the model.],
+    text(font: "Source Sans Pro", weight: "extrabold")[The package had to be able to interact with AWS S3 and file system data sources, as well as data read in using PySpark and  ],
+  )
+)
+#entry(
   title: text(font: "Source Sans Pro", weight: "extrabold")[Teaching Assistant],
   company-or-university: "Stellenbosch Univerity",
   date: text(font: "Source Sans Pro", weight: "bold")[Feb 2024 - June 2024],
@@ -66,7 +79,7 @@
   )
 )
 #entry(
-  title: text(font: "Source Sans Pro", weight: "extrabold")[Data Analysis Intern],
+  title: text(font: "Source Sans Pro", weight: "extrabold")[Data Analyst Intern],
   company-or-university: "Advance Guidance",
   date: text(font: "Source Sans Pro", weight: "bold")[Nov 2022 - Jan 2023],
   location: "",
@@ -95,6 +108,7 @@
     text(font: "Source Sans Pro", weight: "extrabold")[Reviewed and presented on various information systems research frameworks and theories. ]
   )
 )
+#pagebreak()
 #entry(
   title: text(font: "Source Sans Pro", weight: "extrabold")[Bachelor of Commerce in Management Science],
   company-or-university: "Stellenbosch University",
@@ -109,8 +123,6 @@
   )
 )
 
-
-#pagebreak()
 #section("Skills & Interests")
 #skill(
   category: text(font: "Source Sans Pro", weight: "extrabold")[Languages],
